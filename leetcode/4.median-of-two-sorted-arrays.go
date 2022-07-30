@@ -4,6 +4,10 @@
  * [4] Median of Two Sorted Arrays
  */
 
+package leetcode
+
+import "sort"
+
 // @lc code=start
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
     mergeArr := append(nums1, nums2...)

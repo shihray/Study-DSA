@@ -4,6 +4,8 @@
  * [1] Two Sum
  */
 
+package leetcode
+
 // @lc code=start
 func twoSum(nums []int, target int) []int {
 	
