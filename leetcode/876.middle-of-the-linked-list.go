@@ -3,7 +3,12 @@
  *
  * [876] Middle of the Linked List
  */
+package leetcode
 
+ type ListNode struct {
+	Val int
+	Next *ListNode
+}
 // @lc code=start
 /**
  * Definition for singly-linked list.

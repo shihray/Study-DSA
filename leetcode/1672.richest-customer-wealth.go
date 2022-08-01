@@ -3,6 +3,7 @@
  *
  * [1672] Richest Customer Wealth
  */
+package leetcode
 
 // @lc code=start
 func maximumWealth(accounts [][]int) int {

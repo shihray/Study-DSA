@@ -3,6 +3,9 @@
  *
  * [412] Fizz Buzz
  */
+package leetcode
+
+import "strconv"
 
 // @lc code=start
 func fizzBuzz(n int) []string {

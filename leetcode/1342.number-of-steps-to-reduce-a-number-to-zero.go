@@ -3,6 +3,7 @@
  *
  * [1342] Number of Steps to Reduce a Number to Zero
  */
+package leetcode
 
 // @lc code=start
 func numberOfSteps(num int) int {
