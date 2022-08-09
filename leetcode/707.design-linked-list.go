@@ -4,7 +4,7 @@
  * [707] Design Linked List
  */
 
-package linkedlist
+package leetcode
 
 // @lc code=start
 type MyLinkedList struct {
@@ -12,11 +12,9 @@ type MyLinkedList struct {
 	next *MyLinkedList
 }
 
-
 func Constructor() MyLinkedList {
     return MyLinkedList{}
 }
-
 
 func (this *MyLinkedList) Get(index int) int {
 	if index < 0 {

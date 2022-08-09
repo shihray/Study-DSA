@@ -3,6 +3,7 @@
  *
  * [62] Unique Paths
  */
+package leetcode
 
 // @lc code=start
 func min(a int, b int) int {

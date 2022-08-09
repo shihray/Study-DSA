@@ -3,6 +3,7 @@
  *
  * [905] Sort Array By Parity
  */
+package leetcode
 
 // @lc code=start
 func sortArrayByParity(nums []int) []int {

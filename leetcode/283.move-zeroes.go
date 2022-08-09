@@ -3,6 +3,7 @@
  *
  * [283] Move Zeroes
  */
+package leetcode
 
 // @lc code=start
 func moveZeroes(nums []int)  {
