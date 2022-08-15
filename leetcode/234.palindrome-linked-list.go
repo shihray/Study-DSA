@@ -16,6 +16,28 @@ package leetcode
  */
 func isPalindrome(head *ListNode) bool {
     
+	if head == nil {
+		return false
+	}
+
+	var arr []int
+
+	for head != nil {
+		arr = append(arr, head.Val)
+		head = head.Next
+	}
+
+	return palindrome(arr)
+}
+
+func palindrome(arr []int) bool {
+
+	for i, j := 0, len(arr)-1; i < len(arr); i, j = i+1,j-1 {
+		if arr[i] != arr[j] {
+			return false
+		} 
+	}
+	return true
 }
 // @lc code=end
 
