@@ -3,6 +3,7 @@
  *
  * [36] Valid Sudoku
  */
+package main
 
 // @lc code=start
 func isValidSudoku(board [][]byte) bool {
