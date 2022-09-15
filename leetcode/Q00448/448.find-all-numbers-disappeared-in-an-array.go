@@ -3,7 +3,7 @@
  *
  * [448] Find All Numbers Disappeared in an Array
  */
-package leetcode
+package q00448
 
 // @lc code=start
 func findDisappearedNumbers(nums []int) []int {

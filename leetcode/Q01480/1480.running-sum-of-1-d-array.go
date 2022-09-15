@@ -4,7 +4,7 @@
  * [1480] Running Sum of 1d Array
  */
 
-package leetcode
+package q01480
 
 // @lc code=start
 func runningSum(nums []int) []int {

@@ -3,7 +3,7 @@
  *
  * [155] Min Stack
  */
-package leetcode
+package q00155
 
 // @lc code=start
 type MinStackStuct struct {

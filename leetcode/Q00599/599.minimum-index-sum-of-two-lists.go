@@ -3,6 +3,7 @@
  *
  * [599] Minimum Index Sum of Two Lists
  */
+package q00599
 
 // @lc code=start
 func findRestaurant(list1 []string, list2 []string) []string {

@@ -5,6 +5,7 @@
  */
 
 // need to maintain same byte different place
+package q00205
 
 // @lc code=start
 func isIsomorphic(s string, t string) bool {

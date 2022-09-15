@@ -3,6 +3,7 @@
  *
  * [349] Intersection of Two Arrays
  */
+package q00349
 
 // @lc code=start
 func intersection(nums1 []int, nums2 []int) []int {

@@ -3,6 +3,7 @@
  *
  * [706] Design HashMap
  */
+package q00706
 
 // @lc code=start
 type MyHashMap struct {

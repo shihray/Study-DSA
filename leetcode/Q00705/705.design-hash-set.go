@@ -3,6 +3,7 @@
  *
  * [705] Design HashSet
  */
+package q00705
 
 // @lc code=start
 type MyHashSet struct {

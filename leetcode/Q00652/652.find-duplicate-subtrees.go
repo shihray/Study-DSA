@@ -3,7 +3,7 @@
  *
  * [652] Find Duplicate Subtrees
  */
-package leetcode
+package q00652
 
 import "fmt"
 

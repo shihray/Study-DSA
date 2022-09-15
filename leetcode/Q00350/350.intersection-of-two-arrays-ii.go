@@ -4,7 +4,7 @@
  * [350] Intersection of Two Arrays II
  */
 
-package leetcode
+package q00350
 
 // @lc code=start
 func intersect(nums1 []int, nums2 []int) []int {

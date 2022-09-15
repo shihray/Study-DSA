@@ -4,7 +4,7 @@
  * [160] Intersection of Two Linked Lists
  */
 
-package leetcode
+package q00160
 
 type ListNode struct {
     Val int

@@ -4,7 +4,7 @@
  * [622] Design Circular Queue
  */
 
-package leetcode
+package q00622
 
 // @lc code=start
 type MyCircularQueue struct {

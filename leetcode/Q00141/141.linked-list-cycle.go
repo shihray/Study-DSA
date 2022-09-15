@@ -4,7 +4,7 @@
  * [141] Linked List Cycle
  */
 
-package leetcode
+package q00141
 
 type ListNode struct {
     Val int

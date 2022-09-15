@@ -4,7 +4,7 @@
  * [1] Two Sum
  */
 
-package main
+package q00001
 
 // @lc code=start
 func twoSum(nums []int, target int) []int {

@@ -4,7 +4,7 @@
  * [414] Third Maximum Number
  */
 
-package leetcode
+package q00414
 
 import "math"
 

@@ -3,7 +3,7 @@
  *
  * [20] Valid Parentheses
  */
-package leetcode
+package q00020
 
 // @lc code=start
 func isValid(s string) bool {

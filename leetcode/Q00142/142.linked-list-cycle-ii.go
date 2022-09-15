@@ -3,7 +3,7 @@
  *
  * [142] Linked List Cycle II
  */
-package leetcode
+package q00142
 
 type ListNode struct {
     Val int

@@ -3,7 +3,7 @@
  *
  * [61] Rotate List
  */
-package leetcode
+package q00061
 
 type ListNode struct {
     Val int

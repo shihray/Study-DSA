@@ -3,7 +3,7 @@
  *
  * [2] Add Two Numbers
  */
-package main
+package q00002
 
 type ListNode struct {
     Val int

@@ -3,7 +3,7 @@
  *
  * [21] Merge Two Sorted Lists
  */
-package leetcode
+package q00021
 
 type ListNode struct {
     Val int

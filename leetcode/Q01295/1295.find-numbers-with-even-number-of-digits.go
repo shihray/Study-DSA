@@ -3,7 +3,7 @@
  *
  * [1295] Find Numbers with Even Number of Digits
  */
-package leetcode
+package q01295
 
 import "strconv"
 

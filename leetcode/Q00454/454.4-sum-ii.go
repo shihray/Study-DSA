@@ -4,7 +4,7 @@
  * [454] 4Sum II
  */
 
-package leetcode
+package q00454
 
 // @lc code=start
 func fourSumCount(nums1 []int, nums2 []int, nums3 []int, nums4 []int) int {

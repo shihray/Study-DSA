@@ -3,7 +3,7 @@
  *
  * [378] Kth Smallest Element in a Sorted Matrix
  */
-package leetcode
+package q00378
 
 import "sort"
 

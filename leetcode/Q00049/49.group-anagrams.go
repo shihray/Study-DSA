@@ -4,7 +4,7 @@
  * [49] Group Anagrams
  */
 
-package leetcode
+package q00049
 
 // @lc code=start
 func groupAnagrams(strs []string) [][]string {

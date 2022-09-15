@@ -3,6 +3,7 @@
  *
  * [771] Jewels and Stones
  */
+package q00771
 
 // @lc code=start
 func numJewelsInStones(jewels string, stones string) int {

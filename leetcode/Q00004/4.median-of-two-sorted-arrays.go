@@ -4,7 +4,7 @@
  * [4] Median of Two Sorted Arrays
  */
 
-package leetcode
+package q00004
 
 import "sort"
 

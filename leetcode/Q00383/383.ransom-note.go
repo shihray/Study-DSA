@@ -3,7 +3,7 @@
  *
  * [383] Ransom Note
  */
-package leetcode
+package q00383
 
 // @lc code=start
 func canConstruct(ransomNote string, magazine string) bool {

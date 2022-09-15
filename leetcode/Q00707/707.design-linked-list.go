@@ -4,7 +4,7 @@
  * [707] Design Linked List
  */
 
-package leetcode
+package q00707
 
 // @lc code=start
 type MyLinkedList struct {

@@ -3,6 +3,7 @@
  *
  * [217] Contains Duplicate
  */
+package q00217
 
 // @lc code=start
 func containsDuplicate(nums []int) bool {

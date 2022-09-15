@@ -3,7 +3,7 @@
  *
  * [1346] Check If N and Its Double Exist
  */
-package leetcode
+package q01346
 
 // @lc code=start
 func checkIfExist(arr []int) bool {

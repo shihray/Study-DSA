@@ -3,7 +3,7 @@
  *
  * [203] Remove Linked List Elements
  */
-package leetcode
+package q00203
 
 type ListNode struct {
     Val int

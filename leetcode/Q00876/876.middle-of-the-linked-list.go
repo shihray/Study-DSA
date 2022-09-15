@@ -3,7 +3,7 @@
  *
  * [876] Middle of the Linked List
  */
-package leetcode
+package q00876
 
  type ListNode struct {
 	Val int

@@ -4,7 +4,7 @@
  * [3] Longest Substring Without Repeating Characters
  */
 
-package leetcode
+package q00003
 
 // @lc code=start
 func lengthOfLongestSubstring(s string) int {

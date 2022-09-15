@@ -3,7 +3,7 @@
  *
  * [916] Word Subsets
  */
-package leetcode
+package q00916
 
 // @lc code=start
 func wordSubsets(words1 []string, words2 []string) []string {

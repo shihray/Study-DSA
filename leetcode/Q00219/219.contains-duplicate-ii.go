@@ -4,7 +4,7 @@
  * [219] Contains Duplicate II
  */
 
-package leetcode
+package q00219
 
 // @lc code=start
 func containsNearbyDuplicate(nums []int, k int) bool {

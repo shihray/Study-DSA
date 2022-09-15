@@ -3,7 +3,7 @@
  *
  * [1299] Replace Elements with Greatest Element on Right Side
  */
-package leetcode
+package q01299
 
 // @lc code=start
 func replaceElements(arr []int) []int {

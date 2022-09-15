@@ -3,7 +3,7 @@
  *
  * [890] Find and Replace Pattern
  */
-package leetcode
+package q00890
 
 // @lc code=start
 func findAndReplacePattern(words []string, pattern string) []string {

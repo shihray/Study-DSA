@@ -3,7 +3,7 @@
  *
  * [1051] Height Checker
  */
-package leetcode
+package q01051
 
 import "sort"
 

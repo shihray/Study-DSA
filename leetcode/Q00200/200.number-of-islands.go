@@ -3,6 +3,7 @@
  *
  * [200] Number of Islands
  */
+package q00200
 
 // @lc code=start
 func numIslands(grid [][]byte) int {

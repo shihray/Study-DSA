@@ -3,7 +3,7 @@
  *
  * [283] Move Zeroes
  */
-package leetcode
+package q00283
 
 // @lc code=start
 func moveZeroes(nums []int)  {

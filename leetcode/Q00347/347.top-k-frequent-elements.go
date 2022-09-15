@@ -3,7 +3,7 @@
  *
  * [347] Top K Frequent Elements
  */
-package leetcode
+package q00347
 
 import "container/heap"
 

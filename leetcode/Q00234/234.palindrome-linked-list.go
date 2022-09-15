@@ -4,7 +4,7 @@
  * [234] Palindrome Linked List
  */
 
-package leetcode
+package q00234
 
 type ListNode struct {
     Val int

@@ -4,7 +4,7 @@
  * [328] Odd Even Linked List
  */
 
-package leetcode
+package q00328
 
 type ListNode struct {
     Val int

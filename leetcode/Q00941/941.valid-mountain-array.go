@@ -3,7 +3,7 @@
  *
  * [941] Valid Mountain Array
  */
-package leetcode
+package q00941
 
 // @lc code=start
 func validMountainArray(arr []int) bool {

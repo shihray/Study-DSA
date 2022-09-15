@@ -3,7 +3,8 @@
  *
  * [412] Fizz Buzz
  */
-package leetcode
+
+package q00412
 
 import "strconv"
 

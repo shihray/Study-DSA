@@ -3,6 +3,7 @@
  *
  * [752] Open the Lock
  */
+package q00752
 
 // @lc code=start
 func openLock(deadends []string, target string) int {

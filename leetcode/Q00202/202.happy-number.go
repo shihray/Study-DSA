@@ -3,7 +3,7 @@
  *
  * [202] Happy Number
  */
-package leetcode
+package q00202
 
 // @lc code=start
 func isHappy(n int) bool {

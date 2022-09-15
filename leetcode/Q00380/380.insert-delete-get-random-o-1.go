@@ -3,7 +3,7 @@
  *
  * [380] Insert Delete GetRandom O(1)
  */
-package leetcode
+package q00380
 
 import "math/rand"
 

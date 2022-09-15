@@ -3,7 +3,7 @@
  *
  * [977] Squares of a Sorted Array
  */
-package leetcode
+package q00977
 
 import "sort"
 

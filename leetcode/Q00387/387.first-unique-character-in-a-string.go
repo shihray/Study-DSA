@@ -3,7 +3,7 @@
  *
  * [387] First Unique Character in a String
  */
-package leetcode
+package q00387
 
 // @lc code=start
 func firstUniqChar(s string) int {

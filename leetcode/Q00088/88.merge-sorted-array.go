@@ -3,7 +3,7 @@
  *
  * [88] Merge Sorted Array
  */
-package leetcode
+package q00088
 
 // @lc code=start
 func merge(nums1 []int, m int, nums2 []int, n int)  {

@@ -3,7 +3,7 @@
  *
  * [19] Remove Nth Node From End of List
  */
-package leetcode
+package q00019
 
 type ListNode struct {
     Val int

@@ -3,7 +3,7 @@
  *
  * [1089] Duplicate Zeros
  */
-package leetcode
+package q01089
 
 // @lc code=start
 func duplicateZeros(arr []int)  {

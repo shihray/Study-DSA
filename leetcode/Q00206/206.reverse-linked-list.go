@@ -3,7 +3,7 @@
  *
  * [206] Reverse Linked List
  */
-package leetcode
+package q00206
 
 type ListNode struct {
     Val int

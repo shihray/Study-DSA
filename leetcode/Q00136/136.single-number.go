@@ -3,6 +3,7 @@
  *
  * [136] Single Number
  */
+package q00136
 
 // @lc code=start
 func singleNumber(nums []int) int {

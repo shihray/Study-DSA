@@ -3,7 +3,7 @@
  *
  * [27] Remove Element
  */
-package leetcode
+package q00027
 
 import "sort"
 

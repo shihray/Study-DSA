@@ -3,7 +3,7 @@
  *
  * [26] Remove Duplicates from Sorted Array
  */
-package leetcode
+package q00026
 
 // @lc code=start
 func removeDuplicates(nums []int) int {
