@@ -6,9 +6,10 @@
 package q00021
 
 type ListNode struct {
-    Val int
-    Next *ListNode
+	Val  int
+	Next *ListNode
 }
+
 // @lc code=start
 /**
  * Definition for singly-linked list.
@@ -18,7 +19,7 @@ type ListNode struct {
  * }
  */
 func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
-    if list1 == nil {
+	if list1 == nil {
 		return list2
 	}
 	if list2 == nil {
@@ -31,5 +32,5 @@ func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 	list2.Next = mergeTwoLists(list1, list2.Next)
 	return list2
 }
-// @lc code=end
 
+// @lc code=end
