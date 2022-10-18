@@ -14,6 +14,8 @@ package q00278
  * func isBadVersion(version int) bool;
  */
 
+func isBadVersion(version int) bool;
+
 func firstBadVersion(n int) int {
 
 	start, end, firstBadVersion := 1, n, n
