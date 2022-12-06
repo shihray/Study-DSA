@@ -9,41 +9,41 @@ import "math/rand"
 
 // @lc code=start
 type RandomizedSet struct {
-    Item map[int]bool
+    Item map[int]int
 	CurrArr []int
 }
 
 func Constructor() RandomizedSet {
     return RandomizedSet{
-		Item: map[int]bool{},
+		Item: map[int]int{},
 		CurrArr: make([]int, 0),
 	}
 }
 
 
 func (this *RandomizedSet) Insert(val int) bool {
-    if item, ok := this.Item[val]; ok && item {
-		return false
+    _, ok := this.Item[val]; 
+	if !ok {
+		this.Item[val] = len(this.CurrArr)
+		this.CurrArr = append(this.CurrArr, val)
 	} 
-	this.Item[val] = true
-	this.CurrArr = append(this.CurrArr, val)
-	return true
+	return !ok
 }
 
 
 func (this *RandomizedSet) Remove(val int) bool {
-    if item, ok := this.Item[val]; ok {
-		this.Item[val] = false
-
-		for i := 0; i < len(this.CurrArr); i++ {
-			if this.CurrArr[i] == val {
-				this.CurrArr = append(this.CurrArr[:i], this.CurrArr[i+1:]...)
-			}
+    index, exist := this.Item[val]
+	if exist {
+		delete(this.Item, val)
+		lastIdx := len(this.CurrArr) - 1
+		if index != lastIdx {
+			tmp := this.CurrArr[lastIdx]
+			this.Item[tmp] = index
+			this.CurrArr[index] = tmp
 		}
-
-		return item
+		this.CurrArr = this.CurrArr[:lastIdx]
 	}
-	return false
+	return exist
 }
 
 
