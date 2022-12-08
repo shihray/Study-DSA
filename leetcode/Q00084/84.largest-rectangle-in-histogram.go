@@ -7,7 +7,7 @@ package q00084
 
 // @lc code=start
 func largestRectangleArea(heights []int) int {
-    
+    return 0
 }
 // @lc code=end
 
