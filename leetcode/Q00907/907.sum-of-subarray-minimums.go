@@ -22,7 +22,7 @@ func combine(arr []int, k int) int {
 	var comb func(cur []int) 
 	comb = func(cur []int) {
 		if len(cur) == k {
-			min := math.MaxInt
+			min := math.MaxInt64
 			for i := 0; i < len(cur); i++ {
 				if min > cur[i] {
 					min = cur[i]

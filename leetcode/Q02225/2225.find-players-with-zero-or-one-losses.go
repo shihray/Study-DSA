@@ -12,14 +12,14 @@ func findWinners(matches [][]int) [][]int {
     var losserCount = make([]int, 100001)
 
 	for i := 0; i < 100001; i++ {
-		losserCount[i] = math.MaxInt
+		losserCount[i] = math.MaxInt64
 	}
 
 	for i := 0; i < len(matches); i++ {
-		if losserCount[matches[i][0]] == math.MaxInt {
+		if losserCount[matches[i][0]] == math.MaxInt64 {
 			losserCount[matches[i][0]] = 0
 		}
-		if losserCount[matches[i][1]] == math.MaxInt {
+		if losserCount[matches[i][1]] == math.MaxInt64 {
 			losserCount[matches[i][1]] = 1
 		} else {
 			losserCount[matches[i][1]]++
