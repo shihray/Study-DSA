@@ -3,10 +3,10 @@
  *
  * [347] Top K Frequent Elements
  */
-package q00347bucketsort
+package q00347
 
 // @lc code=start
-func topKFrequent(nums []int, k int) []int {
+func topKFrequentV2(nums []int, k int) []int {
     
 	m := map[int]int{}
 	bucket := make([][]int, len(nums)+1)
