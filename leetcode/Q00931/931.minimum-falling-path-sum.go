@@ -11,7 +11,7 @@ import (
 )
 
 // @lc code=start
-func minFallingPathSum(matrix [][]int) int {
+func minFallingPathSumTmp(matrix [][]int) int {
 	tmp := map[string]int{}
 	resp := math.MaxInt32
 
