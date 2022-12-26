@@ -7,7 +7,7 @@ import (
 )
 
 type input struct {
-	nums   []int
+	nums []int
 }
 
 type output struct {
@@ -24,16 +24,16 @@ func TestQuestion(t *testing.T) {
 
 	tds := []testdata{
 		{
-			input{nums: []int{73,74,75,71,69,72,76,73}},
-			output{ans: []int{1,1,4,2,1,1,0,0}},
+			input{nums: []int{73, 74, 75, 71, 69, 72, 76, 73}},
+			output{ans: []int{1, 1, 4, 2, 1, 1, 0, 0}},
 		},
 		{
-			input{nums: []int{30,40,50,60}},
-			output{ans: []int{1,1,1,0}},
+			input{nums: []int{30, 40, 50, 60}},
+			output{ans: []int{1, 1, 1, 0}},
 		},
 		{
-			input{nums: []int{30,60,90}},
-			output{ans: []int{1,1,0}},
+			input{nums: []int{30, 60, 90}},
+			output{ans: []int{1, 1, 0}},
 		},
 	}
 
