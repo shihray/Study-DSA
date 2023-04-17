@@ -16,7 +16,7 @@ func kidsWithCandies(candies []int, extraCandies int) []bool {
 		if candy + extraCandies >= maxCnt {
 			res[idx] = true
 		}
-	}
+	}codegpt
 	return res
 }
 
